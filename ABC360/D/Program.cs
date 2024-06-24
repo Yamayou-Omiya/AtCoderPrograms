@@ -11,6 +11,7 @@ class Program
         int K = int.Parse(input[1]);
         Console.Write();
         int i = 0;
+        int j = 0;
 
 
     } 
