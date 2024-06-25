@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Iwata\\Desktop\\source\\C#\\vscode\\ABC360\\D\\Program.csproj": {}
+    "c:\\Users\\yamay\\Desktop\\source\\AtCoderPrograms\\ABC360\\D\\Program.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Iwata\\Desktop\\source\\C#\\vscode\\ABC360\\D\\Program.csproj": {
+    "c:\\Users\\yamay\\Desktop\\source\\AtCoderPrograms\\ABC360\\D\\Program.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iwata\\Desktop\\source\\C#\\vscode\\ABC360\\D\\Program.csproj",
+        "projectUniqueName": "c:\\Users\\yamay\\Desktop\\source\\AtCoderPrograms\\ABC360\\D\\Program.csproj",
         "projectName": "Program",
-        "projectPath": "C:\\Users\\Iwata\\Desktop\\source\\C#\\vscode\\ABC360\\D\\Program.csproj",
-        "packagesPath": "C:\\Users\\Iwata\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iwata\\Desktop\\source\\C#\\vscode\\ABC360\\D\\obj\\",
+        "projectPath": "c:\\Users\\yamay\\Desktop\\source\\AtCoderPrograms\\ABC360\\D\\Program.csproj",
+        "packagesPath": "C:\\Users\\yamay\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\yamay\\Desktop\\source\\AtCoderPrograms\\ABC360\\D\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Iwata\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yamay\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
