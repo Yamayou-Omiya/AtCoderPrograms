@@ -1,14 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-
-class Program
-{
-        static void Main()
-    {
-
-        Console.WriteLine(1);
-
-
+class Program{
+    static void Main(string[] args){
+        int input = int.Parse(Console.ReadLine());
+        Console.WriteLine(input*input);
     }
-     
 }
