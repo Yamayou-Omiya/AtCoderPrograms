@@ -9,11 +9,7 @@ class Program
         string[] input = Console.ReadLine().Split(' ');
         int N = int.Parse(input[0]);
         int K = int.Parse(input[1]);
-        Console.Write();
-        int i = 0;
-        int j = 0;
-        int k = 0;
-        int l = 0;
+        Console.WriteLine(N);
     } 
 
 }
