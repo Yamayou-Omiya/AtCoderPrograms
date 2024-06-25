@@ -35,7 +35,7 @@ class Program
             else right = mid;
         }
 
-        Console.WriteLine(left);
+
 
     }
      
