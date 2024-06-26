@@ -1,8 +1,9 @@
 ﻿using System;
-class Program{
-    static void Main(string[] args){
-        string input = Console.ReadLine();
-        Console.WriteLine(input);
-        Console.WriteLine();
+class Program
+{
+    static void Main(string[] args)
+    {
+        int N = int.Parse(Console.ReadLine());
+        Console.WriteLine(N * N);
     }
 }

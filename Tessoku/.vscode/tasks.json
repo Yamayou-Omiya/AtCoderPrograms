@@ -50,6 +50,156 @@
                 "${workspaceFolder}/A05/A05.csproj"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build A06",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/A06/A06.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build A07",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/A07/A07.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build A08",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/A08/A08.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build A09",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/A09/A09.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build A10",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/A10/A10.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build A11",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/A11/A11.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build A12",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/A12/A12.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build A13",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/A13/A13.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build A14",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/A14/A14.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build A15",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/A15/A15.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build A16",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/A16/A16.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build A17",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/A17/A17.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build A18",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/A18/A18.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build A19",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/A19/A19.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build A20",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/A20/A20.csproj"
+            ],
+            "problemMatcher": "$msCompile"
         }
     ]
 }
