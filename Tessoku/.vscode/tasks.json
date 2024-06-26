@@ -200,6 +200,66 @@
                 "${workspaceFolder}/A20/A20.csproj"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build B01",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/B01/B01.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build B02",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/B02/B02.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build B03",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/B03/B03.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build B04",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/B04/B04.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build B05",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/B05/B05.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build B06",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/B06/B06.csproj"
+            ],
+            "problemMatcher": "$msCompile"
         }
     ]
 }

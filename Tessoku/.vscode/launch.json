@@ -420,6 +420,132 @@
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"
             }
+        },
+        {
+            "name": "B01 .NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build B01",
+            "program": "${workspaceFolder}/B01/bin/Debug/net8.0/B01.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/B01",
+            "stopAtEntry": false,
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "launchBrowser": {
+                "enabled": false
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "name": "B02 .NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build B02",
+            "program": "${workspaceFolder}/B02/bin/Debug/net8.0/B02.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/B02",
+            "stopAtEntry": false,
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "launchBrowser": {
+                "enabled": false
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "name": "B03 .NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build B03",
+            "program": "${workspaceFolder}/B03/bin/Debug/net8.0/B03.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/B03",
+            "stopAtEntry": false,
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "launchBrowser": {
+                "enabled": false
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "name": "B04 .NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build B04",
+            "program": "${workspaceFolder}/B04/bin/Debug/net8.0/B04.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/B04",
+            "stopAtEntry": false,
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "launchBrowser": {
+                "enabled": false
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "name": "B05 .NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build B05",
+            "program": "${workspaceFolder}/B05/bin/Debug/net8.0/B05.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/B05",
+            "stopAtEntry": false,
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "launchBrowser": {
+                "enabled": false
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "name": "B06 .NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build B06",
+            "program": "${workspaceFolder}/B06/bin/Debug/net8.0/B06.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/B06",
+            "stopAtEntry": false,
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "launchBrowser": {
+                "enabled": false
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
         }
     ]
 }
