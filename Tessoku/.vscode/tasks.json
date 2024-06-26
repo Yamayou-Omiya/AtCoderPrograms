@@ -20,6 +20,36 @@
                 "${workspaceFolder}/A02/A02.csproj"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build A03",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/A03/A03.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build A04",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/A04/A04.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build A05",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/A05/A05.csproj"
+            ],
+            "problemMatcher": "$msCompile"
         }
     ]
 }

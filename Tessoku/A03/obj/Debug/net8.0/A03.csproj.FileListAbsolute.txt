@@ -1,0 +1,15 @@
+C:\Users\Iwata\Desktop\work\Program\Tessoku\A03\bin\Debug\net8.0\A03.exe
+C:\Users\Iwata\Desktop\work\Program\Tessoku\A03\bin\Debug\net8.0\A03.deps.json
+C:\Users\Iwata\Desktop\work\Program\Tessoku\A03\bin\Debug\net8.0\A03.runtimeconfig.json
+C:\Users\Iwata\Desktop\work\Program\Tessoku\A03\bin\Debug\net8.0\A03.dll
+C:\Users\Iwata\Desktop\work\Program\Tessoku\A03\bin\Debug\net8.0\A03.pdb
+C:\Users\Iwata\Desktop\work\Program\Tessoku\A03\obj\Debug\net8.0\A03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Iwata\Desktop\work\Program\Tessoku\A03\obj\Debug\net8.0\A03.AssemblyInfoInputs.cache
+C:\Users\Iwata\Desktop\work\Program\Tessoku\A03\obj\Debug\net8.0\A03.AssemblyInfo.cs
+C:\Users\Iwata\Desktop\work\Program\Tessoku\A03\obj\Debug\net8.0\A03.csproj.CoreCompileInputs.cache
+C:\Users\Iwata\Desktop\work\Program\Tessoku\A03\obj\Debug\net8.0\A03.sourcelink.json
+C:\Users\Iwata\Desktop\work\Program\Tessoku\A03\obj\Debug\net8.0\A03.dll
+C:\Users\Iwata\Desktop\work\Program\Tessoku\A03\obj\Debug\net8.0\refint\A03.dll
+C:\Users\Iwata\Desktop\work\Program\Tessoku\A03\obj\Debug\net8.0\A03.pdb
+C:\Users\Iwata\Desktop\work\Program\Tessoku\A03\obj\Debug\net8.0\A03.genruntimeconfig.cache
+C:\Users\Iwata\Desktop\work\Program\Tessoku\A03\obj\Debug\net8.0\ref\A03.dll
