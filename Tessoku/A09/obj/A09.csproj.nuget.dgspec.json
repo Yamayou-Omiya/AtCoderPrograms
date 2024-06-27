@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Iwata\\Desktop\\work\\Program\\Tessoku\\A09\\A09.csproj": {}
+    "c:\\Users\\Iwata\\Desktop\\work\\Program\\Tessoku\\A09\\A09.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Iwata\\Desktop\\work\\Program\\Tessoku\\A09\\A09.csproj": {
+    "c:\\Users\\Iwata\\Desktop\\work\\Program\\Tessoku\\A09\\A09.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iwata\\Desktop\\work\\Program\\Tessoku\\A09\\A09.csproj",
+        "projectUniqueName": "c:\\Users\\Iwata\\Desktop\\work\\Program\\Tessoku\\A09\\A09.csproj",
         "projectName": "A09",
-        "projectPath": "C:\\Users\\Iwata\\Desktop\\work\\Program\\Tessoku\\A09\\A09.csproj",
+        "projectPath": "c:\\Users\\Iwata\\Desktop\\work\\Program\\Tessoku\\A09\\A09.csproj",
         "packagesPath": "C:\\Users\\Iwata\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iwata\\Desktop\\work\\Program\\Tessoku\\A09\\obj\\",
+        "outputPath": "c:\\Users\\Iwata\\Desktop\\work\\Program\\Tessoku\\A09\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Iwata\\AppData\\Roaming\\NuGet\\NuGet.Config",
