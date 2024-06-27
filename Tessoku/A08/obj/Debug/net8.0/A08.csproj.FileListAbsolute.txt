@@ -1,0 +1,15 @@
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A08\bin\Debug\net8.0\A08.exe
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A08\bin\Debug\net8.0\A08.deps.json
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A08\bin\Debug\net8.0\A08.runtimeconfig.json
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A08\bin\Debug\net8.0\A08.dll
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A08\bin\Debug\net8.0\A08.pdb
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A08\obj\Debug\net8.0\A08.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A08\obj\Debug\net8.0\A08.AssemblyInfoInputs.cache
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A08\obj\Debug\net8.0\A08.AssemblyInfo.cs
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A08\obj\Debug\net8.0\A08.csproj.CoreCompileInputs.cache
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A08\obj\Debug\net8.0\A08.sourcelink.json
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A08\obj\Debug\net8.0\A08.dll
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A08\obj\Debug\net8.0\refint\A08.dll
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A08\obj\Debug\net8.0\A08.pdb
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A08\obj\Debug\net8.0\A08.genruntimeconfig.cache
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A08\obj\Debug\net8.0\ref\A08.dll
