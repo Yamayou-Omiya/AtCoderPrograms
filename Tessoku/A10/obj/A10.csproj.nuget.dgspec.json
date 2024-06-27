@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Iwata\\Desktop\\work\\Program\\Tessoku\\A10\\A10.csproj": {}
+    "C:\\Users\\yamay\\Desktop\\work\\AtCoderPrograms\\Tessoku\\A10\\A10.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Iwata\\Desktop\\work\\Program\\Tessoku\\A10\\A10.csproj": {
+    "C:\\Users\\yamay\\Desktop\\work\\AtCoderPrograms\\Tessoku\\A10\\A10.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iwata\\Desktop\\work\\Program\\Tessoku\\A10\\A10.csproj",
+        "projectUniqueName": "C:\\Users\\yamay\\Desktop\\work\\AtCoderPrograms\\Tessoku\\A10\\A10.csproj",
         "projectName": "A10",
-        "projectPath": "C:\\Users\\Iwata\\Desktop\\work\\Program\\Tessoku\\A10\\A10.csproj",
-        "packagesPath": "C:\\Users\\Iwata\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iwata\\Desktop\\work\\Program\\Tessoku\\A10\\obj\\",
+        "projectPath": "C:\\Users\\yamay\\Desktop\\work\\AtCoderPrograms\\Tessoku\\A10\\A10.csproj",
+        "packagesPath": "C:\\Users\\yamay\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yamay\\Desktop\\work\\AtCoderPrograms\\Tessoku\\A10\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Iwata\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yamay\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
