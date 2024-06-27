@@ -6,8 +6,8 @@ class Program
     static void Main(string[] args)
     {
         int n = int.Parse(Console.ReadLine());
-        int[] x = new int[n+10];
-        int[] y = new int[n+10];
+        int[] x = new int[n + 10];
+        int[] y = new int[n + 10];
 
         string[] input;
 
