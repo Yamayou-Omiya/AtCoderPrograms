@@ -1,0 +1,15 @@
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A14\bin\Debug\net8.0\A14.exe
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A14\bin\Debug\net8.0\A14.deps.json
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A14\bin\Debug\net8.0\A14.runtimeconfig.json
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A14\bin\Debug\net8.0\A14.dll
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A14\bin\Debug\net8.0\A14.pdb
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A14\obj\Debug\net8.0\A14.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A14\obj\Debug\net8.0\A14.AssemblyInfoInputs.cache
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A14\obj\Debug\net8.0\A14.AssemblyInfo.cs
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A14\obj\Debug\net8.0\A14.csproj.CoreCompileInputs.cache
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A14\obj\Debug\net8.0\A14.sourcelink.json
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A14\obj\Debug\net8.0\A14.dll
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A14\obj\Debug\net8.0\refint\A14.dll
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A14\obj\Debug\net8.0\A14.pdb
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A14\obj\Debug\net8.0\A14.genruntimeconfig.cache
+c:\Users\yamay\Desktop\work\AtCoderPrograms\Tessoku\A14\obj\Debug\net8.0\ref\A14.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yamay\\Desktop\\work\\AtCoderPrograms\\Tessoku\\B14\\B14.csproj": {}
+    "c:\\Users\\yamay\\Desktop\\work\\AtCoderPrograms\\Tessoku\\B14\\B14.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yamay\\Desktop\\work\\AtCoderPrograms\\Tessoku\\B14\\B14.csproj": {
+    "c:\\Users\\yamay\\Desktop\\work\\AtCoderPrograms\\Tessoku\\B14\\B14.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yamay\\Desktop\\work\\AtCoderPrograms\\Tessoku\\B14\\B14.csproj",
+        "projectUniqueName": "c:\\Users\\yamay\\Desktop\\work\\AtCoderPrograms\\Tessoku\\B14\\B14.csproj",
         "projectName": "B14",
-        "projectPath": "C:\\Users\\yamay\\Desktop\\work\\AtCoderPrograms\\Tessoku\\B14\\B14.csproj",
+        "projectPath": "c:\\Users\\yamay\\Desktop\\work\\AtCoderPrograms\\Tessoku\\B14\\B14.csproj",
         "packagesPath": "C:\\Users\\yamay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yamay\\Desktop\\work\\AtCoderPrograms\\Tessoku\\B14\\obj\\",
+        "outputPath": "c:\\Users\\yamay\\Desktop\\work\\AtCoderPrograms\\Tessoku\\B14\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yamay\\AppData\\Roaming\\NuGet\\NuGet.Config",
