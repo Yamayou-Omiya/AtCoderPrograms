@@ -1,0 +1,15 @@
+c:\Users\yamay\Desktop\work\AtCoderPrograms\ABC360\D\bin\Debug\net8.0\D.exe
+c:\Users\yamay\Desktop\work\AtCoderPrograms\ABC360\D\bin\Debug\net8.0\D.deps.json
+c:\Users\yamay\Desktop\work\AtCoderPrograms\ABC360\D\bin\Debug\net8.0\D.runtimeconfig.json
+c:\Users\yamay\Desktop\work\AtCoderPrograms\ABC360\D\bin\Debug\net8.0\D.dll
+c:\Users\yamay\Desktop\work\AtCoderPrograms\ABC360\D\bin\Debug\net8.0\D.pdb
+c:\Users\yamay\Desktop\work\AtCoderPrograms\ABC360\D\obj\Debug\net8.0\D.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\yamay\Desktop\work\AtCoderPrograms\ABC360\D\obj\Debug\net8.0\D.AssemblyInfoInputs.cache
+c:\Users\yamay\Desktop\work\AtCoderPrograms\ABC360\D\obj\Debug\net8.0\D.AssemblyInfo.cs
+c:\Users\yamay\Desktop\work\AtCoderPrograms\ABC360\D\obj\Debug\net8.0\D.csproj.CoreCompileInputs.cache
+c:\Users\yamay\Desktop\work\AtCoderPrograms\ABC360\D\obj\Debug\net8.0\D.sourcelink.json
+c:\Users\yamay\Desktop\work\AtCoderPrograms\ABC360\D\obj\Debug\net8.0\D.dll
+c:\Users\yamay\Desktop\work\AtCoderPrograms\ABC360\D\obj\Debug\net8.0\refint\D.dll
+c:\Users\yamay\Desktop\work\AtCoderPrograms\ABC360\D\obj\Debug\net8.0\D.pdb
+c:\Users\yamay\Desktop\work\AtCoderPrograms\ABC360\D\obj\Debug\net8.0\D.genruntimeconfig.cache
+c:\Users\yamay\Desktop\work\AtCoderPrograms\ABC360\D\obj\Debug\net8.0\ref\D.dll

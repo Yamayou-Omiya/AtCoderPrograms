@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yamay\\Desktop\\work\\AtCoderPrograms\\ABC360\\D\\D.csproj",
-      "projectName": "D",
-      "projectPath": "C:\\Users\\yamay\\Desktop\\work\\AtCoderPrograms\\ABC360\\D\\D.csproj",
+      "projectUniqueName": "C:\\Users\\yamay\\Desktop\\work\\AtCoderPrograms\\ABC360\\E\\E.csproj",
+      "projectName": "E",
+      "projectPath": "C:\\Users\\yamay\\Desktop\\work\\AtCoderPrograms\\ABC360\\E\\E.csproj",
       "packagesPath": "C:\\Users\\yamay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yamay\\Desktop\\work\\AtCoderPrograms\\ABC360\\D\\obj\\",
+      "outputPath": "C:\\Users\\yamay\\Desktop\\work\\AtCoderPrograms\\ABC360\\E\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
