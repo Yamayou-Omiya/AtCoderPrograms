@@ -25,22 +25,15 @@ class Program
         leftArrowAnts.Sort();
 
         t *= 2;
-        for (int i = 0; i < leftArrowAnts.Count; i++)
+        int a = 0;
+        int b = 0;
+
+        for (int i = 0; i < rightArrowAnts.Count; i++)
         {
-            int l = -1, r = rightArrowAnts.Count-1;
-            while (r - l > 1)
-            {
-                int mid = (r + l) / 2;
-                int d = leftArrowAnts[i] - rightArrowAnts[mid];
-                if (d <= t) r = mid;
-                else l = mid;
-            }
-            int index = rightArrowAnts.FindIndex(x => x > leftArrowAnts[i]);
-            if (index != -1) count += index - r;
-            else count += leftArrowAnts.Count - r;
+            while (a < leftArrowAnts.Count && leftArrowAnts[a] < rightArrowAnts[i]) a++;
+            while (b < leftArrowAnts.Count && (long)leftArrowAnts[b] - (long)t <= (long)rightArrowAnts[i]) b++;
+            count += b - a;
         }
-
         Console.WriteLine(count);
-
     }
 }
