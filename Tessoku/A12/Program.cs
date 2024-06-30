@@ -26,6 +26,5 @@ class Program
             else r = mid;
         }
         Console.WriteLine(r);
-
     }
 }
