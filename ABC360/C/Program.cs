@@ -13,15 +13,10 @@ class Program
 
         for (int i = 0; i < n; i++) sum += w[i];
 
-        int[] count1 = new int[n];
-        int[] count2 = new int[n];
-        for (int i = 0; i < n; i++)
-        {
-            count1[a[i] - 1] = Math.Max(count1[a[i] - 1], w[i]);
-            count2[a[i] - 1]++;
-        }
+        int[] box = new int[n];
+        for (int i = 0; i < n; i++) box[a[i] - 1] = Math.Max(box[a[i] - 1], w[i]);
 
-        for (int i = 0; i < n; i++) sum -= count1[i];
+        for (int i = 0; i < n; i++) sum -= box[i];
         Console.WriteLine(sum);
     }
 }

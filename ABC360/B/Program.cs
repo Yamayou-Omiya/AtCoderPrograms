@@ -4,35 +4,25 @@ class Program
 {
     static void Main()
     {
-        // 入力を読み込む
-        string input = Console.ReadLine();
-        string[] inputs = input.Split(' ');
-        string S = inputs[0];
-        string T = inputs[1];
 
-        // 条件を満たすcとwの組が存在するかを探す
-        bool found = false;
+        string[] input = Console.ReadLine().Split(' ');
+        string S = input[0];
+        string T = input[1];
 
-        // wの可能な長さをループする (wはSの長さ未満)
+        string ans = "No";
+
         for (int w = 1; w < S.Length; w++)
         {
-            // Sのw文字毎にc文字目を取ってTを形成できるか確認する
             for (int c = 1; c <= w; c++)
             {
                 if (IsMatching(S, T, c, w))
                 {
-                    found = true;
+                    ans = "Yes";
                     break;
                 }
             }
-            if (found)
-            {
-                break;
-            }
         }
-
-        // 結果を出力する
-        Console.WriteLine(found ? "Yes" : "No");
+        Console.WriteLine(ans);
     }
 
     static bool IsMatching(string S, string T, int c, int w)
