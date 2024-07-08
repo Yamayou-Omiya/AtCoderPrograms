@@ -3,20 +3,25 @@ using System.Collections.Generic;
 
 class Program
 {
-    static int N,L,K;
+    static int N;
+    static int L;
+    static int K;
     static int[] A;
-    static bool Check(int x){
-        int count = 0;
+    
+    static bool ok(int x)
+    {
+        int cnt = 0;
         int pre = 0;
-
-        for(int i = 0; i<N;i++){
-            if(A[i]-pre>=x){
-                count++;
+        for (int i = 0; i < N; i++)
+        {
+            if (A[i] - pre >= x && L - A[i] >= x)
+            {
+                cnt++;
                 pre = A[i];
             }
         }
-        if(L-pre >=x) count++;
-        return (count>=K+1);
+        if (cnt >= K) return true;
+        else return false;
     }
     static void Main()
     {
@@ -27,16 +32,21 @@ class Program
         K = int.Parse(Console.ReadLine());
         A = new int[N];
         A = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+        int ans = 0;
 
-        int left=-1,right=L+1;
-        while(right-left>1){
-            int mid = (left+right)/2;
-            if(Check(mid)) left = mid;
-            else right = mid;
+        //Aの配列をソートして,Kより大きい最初の要素のインデックスを取り出す
+        int left = 0;
+        int right = L;
+        while (left < right)
+        {
+            int mid = (left + right) / 2;
+            if (ok(mid)) right = mid;
+            else left = mid + 1;
         }
-
-        Console.WriteLine(left);
-
+        ans = left;
+        Console.WriteLine(ans);
+        
     }
      
 }
+
