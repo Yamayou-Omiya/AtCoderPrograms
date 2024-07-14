@@ -11,7 +11,7 @@ class Program
             input = Console.ReadLine().Split(' ');
             (point[i,0], point[i,1]) = (int.Parse(input[0]), int.Parse(input[1]));
         }
-
+        
         int a,b,c;
         a = (int)(Math.Pow(point[0,0] - point[1,0], 2) + Math.Pow(point[0,1] - point[1,1], 2));
         b = (int)(Math.Pow(point[1,0] - point[2,0], 2) + Math.Pow(point[1,1] - point[2,1], 2));
