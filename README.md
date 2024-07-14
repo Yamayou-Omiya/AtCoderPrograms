@@ -1,0 +1,3 @@
+AtCoderで作成したファイルを垂れ流していくだけです
+ABCはAtCoder Beginners Contestの記録
+Tessokuはプログラミングの鉄則を進めたやつです
