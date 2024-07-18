@@ -15,7 +15,5 @@ class Program
         input = Console.ReadLine().Split(' ');
         for (int i = 3; i <= n; i++) b[i] = int.Parse(input[i - 3]);
 
-        
-
     }
 }
