@@ -1,70 +1,62 @@
 ﻿using System;
-using System.Linq;
 using System.Collections.Generic;
+using System.Linq;
 
 class Program
 {
-    static int n, m;
-    static int[] a = new int[200010];
-    static int[] u = new int[200010], v = new int[200010], b = new int[200010];
-    static List<(int to, int weight)>[] graph;
-    static long[] cost; // Changed the type of 'cost' from int[] to long[]
     static void Main(string[] args)
     {
-        string[] input = Console.ReadLine().Split(' ');
-        (n, m) = (int.Parse(input[0]), int.Parse(input[1]));
+        var input = Console.ReadLine().Split().Select(int.Parse).ToArray();
+        int N = input[0], M = input[1];
 
-        input = Console.ReadLine().Split(' ');
-        for(int i = 1; i <= n; i++) a[i] = int.Parse(input[i-1]);
+        var A = Console.ReadLine().Split().Select(long.Parse).ToArray();
 
-        for(int i = 1; i <= m; i++){
-            input = Console.ReadLine().Split(' ');
-            (u[i], v[i], b[i]) = (int.Parse(input[0]), int.Parse(input[1]), int.Parse(input[2]));
-        }
+        var G = new List<(int, long)>[N];
+        for (int i = 0; i < N; i++)
+            G[i] = new List<(int, long)>();
 
-        graph = new List<(int to, int weight)>[n + 1];
-        for (int i = 0; i <= n; i++) graph[i] = new List<(int to, int weight)>();
-        for (int i = 1; i <= m; i++)
+        for (int i = 0; i < M; i++)
         {
-            graph[u[i]].Add((v[i], b[i]));
-            graph[v[i]].Add((u[i], b[i]));
+            var edge = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            int U = edge[0] - 1, V = edge[1] - 1;
+            long B = edge[2];
+            G[U].Add((V, B + A[V]));
+            G[V].Add((U, B + A[U]));
         }
 
-        Dijkstra();
+        var dist = Dijkstra(G, 0);
 
-        for (int i = 2; i <= n; i++)
-        {
-            Console.Write(cost[i] + " ");
-        }
+        for (int i = 0; i < N; i++)
+            dist[i] += A[0];
+
+        Console.WriteLine(string.Join(" ", dist.Skip(1)));
     }
 
-    static void Dijkstra()
+    static long[] Dijkstra(List<(int, long)>[] G, int s)
     {
-        cost = Enumerable.Repeat(long.MaxValue, n + 1).ToArray();
-        var pq = new PriorityQueue<(int vertex, long cost), long>();
-        cost[1] = a[1]; 
-        pq.Enqueue((1, a[1]), a[1]);
+        const long INF = 1L << 60;
+        var dist = Enumerable.Repeat(INF, G.Length).ToArray();
+        dist[s] = 0;
 
-        while (pq.Count > 0)
+        var pq = new PriorityQueue<(long, int), long>();
+        pq.Enqueue((0, s), 0);
+
+        while (pq.TryDequeue(out var item, out _))
         {
-            var (current, currentCost) = pq.Dequeue();
-            if (cost[current] < currentCost) continue;
+            var (d, v) = item;
+            if (d > dist[v]) continue;
 
-            foreach (var (next, weight) in graph[current])
+            foreach (var (u, weight) in G[v])
             {
-                long nextCost = currentCost + weight;
-                if (cost[next] > nextCost)
+                var nd = d + weight;
+                if (dist[u] > nd)
                 {
-                    cost[next] = nextCost;
-                    pq.Enqueue((next, nextCost), nextCost);
+                    dist[u] = nd;
+                    pq.Enqueue((nd, u), nd);
                 }
             }
         }
 
-        // 頂点の重みを最終コストに加算
-        for (int i = 2; i <= n; i++)
-        {
-            cost[i] += a[i] - a[1];
-        }
+        return dist;
     }
 }
