@@ -39,17 +39,12 @@ class Program
                         flag = false;
                     }
                 }
-                if (flag)
-                {
-                    ok = false;
-                }
-            }
-            if (ok)
-            {
-                ans++;
-            }
-        } while (NextPermutation(a));
+                if (flag) ok = false;
 
+            }
+            if (ok) ans++;
+
+        } while (NextPermutation(a));
         Console.WriteLine(ans);
     }
 
