@@ -1,68 +1,74 @@
 ﻿using System;
-using System.Linq;
 using System.Collections.Generic;
+using System.Linq;
 
 class Program
 {
-    static int n, k;
-    static string s;
-
-    static void Main(string[] args)
+    static void Main()
     {
-        string[] input = Console.ReadLine().Split(' ');
-        (n, k) = (int.Parse(input[0]), int.Parse(input[1]));
+        int n, k;
+        string s;
+
+        string[] input = Console.ReadLine().Split();
+        n = int.Parse(input[0]);
+        k = int.Parse(input[1]);
+
         s = Console.ReadLine();
 
-        List<string> permutations = GetPermutations(s);
+        List<int> a = new List<int>();
+        for (int i = 0; i < n; i++)
+        {
+            a.Add(s[i] - 'a');
+        }
+
+        a.Sort();
 
         int ans = 0;
-        foreach (var perm in permutations)
+        bool ok, flag;
+
+        do
         {
-            bool isPalindrome = true;
+            ok = true;
             for (int i = 0; i <= n - k; i++)
             {
-                bool isPld = true;
+                flag = true;
                 for (int j = 0; j < k / 2; j++)
                 {
-                    if (perm[i + j] != perm[i + k - j - 1])
+                    if (a[i + j] != a[i + k - 1 - j])
                     {
-                        isPld = false;
+                        flag = false;
                     }
-
                 }
-
-                if (isPld)
+                if (flag)
                 {
-                    isPalindrome = false;
-                    break;
+                    ok = false;
                 }
             }
-            if (isPalindrome) ans++;
-        }
+            if (ok)
+            {
+                ans++;
+            }
+        } while (NextPermutation(a));
 
         Console.WriteLine(ans);
-
     }
 
-    static List<string> GetPermutations(string str)
+    // C#には next_permutation がないので、自前で実装
+    static bool NextPermutation(List<int> a)
     {
-        if (str.Length <= 1)
-            return new List<string> { str };
+        int i = a.Count - 2;
+        while (i >= 0 && a[i] >= a[i + 1]) i--;
 
-        var permutations = new HashSet<string>();
+        if (i < 0) return false;
 
-        for (int i = 0; i < str.Length; i++)
-        {
-            char c = str[i];
-            string remaining = str.Remove(i, 1);
+        int j = a.Count - 1;
+        while (a[j] <= a[i]) j--;
 
-            foreach (var perm in GetPermutations(remaining))
-            {
-                permutations.Add(c + perm);
-            }
-        }
+        int temp = a[i];
+        a[i] = a[j];
+        a[j] = temp;
 
-        return permutations.ToList();
+        a.Reverse(i + 1, a.Count - i - 1);
+        return true;
     }
-
 }
